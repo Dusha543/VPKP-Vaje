@@ -1,0 +1,97 @@
+LAB01
+
+With a regular Google search I have found some of my social media accounts and my diploma and some accounts of a person with the same name. On social media accounts there is not a lot of information about me or too many pictures. Using checking tools I have found that my main email has been breached 11 times. The same information is available to me via googles checking tool available in account settings.
+
+There is not much risk for me as I use password managers (unique passwords for all accounts and 2FA or hardware keys) and I try to minimise information I give on the internet.
+
+Worst case scenario would be that someone gained Access to my password manager account or that I missed some older accounts that I don't use anymore with simple passwords. Worst way someone could use information about me that is available on the internet is to impersonate me.
+
+I would rate my personal security/privacy 8-9/10. I started to be more mindful a few years ago with using password managers and general digital hygiene.
+
+
+
+LAB02
+
+Sherlock found 11 results and maigrate found 12 on kali, but not the same ones. All together they found 19. I have used a generic username which I used to have as "gamertag". No sensitive information was found only one telegram account has been found where a full name of the owner of the account was found.
+
+To protect our information we should not give unnecessary permission to websites / applications or use fake names where we can.
+
+It is easy to find usernames or website where a person is active with just using the real name in a "username format" -> name.surname for example. But some more sensitive information was harder to find or I just didnt have luck. I also tried using the "-a" flag with maigret
+
+It seems I do not need to adjust my behaviour too much as there wasnt much information or not at all about me. But I am that more mindful now.
+
+OSINT can be viewed as ethically questionable but the data you are able to find is publicly available so I would say the use of OSINT tools is justified but what you do with found data is another question.
+
+
+
+LAB03
+
+I just took a new picture on my phone. The exact coordinates / address is my home address as I took the picture in my room. The coordinates are accurate enough that you can see in what part of the house the photo was taken. The image was taken 12:05:15 on GMT+1:00. Other data I have noticed is the type of phone that was used and all the settings of the camera app.
+
+Nothing surprised me that much as I have known about metadata for a while now. And personally if I can, I try to turn off location data before taking/uploading a picture and the same I would advise to people who upload regularly as turning of location data for the camera app is the easiest way to protect your privacy and even less technical people can do it.
+
+Personally I dont post much but I definitely have posted some pictures with location data and other matadata exposed. Now I do what I can do protect my privacy and the location data is a big part of it.
+
+
+
+LAB04
+
+I didnt have any actual phishing emails in my spam folder so I just picked a random marketing email from the spam folder.
+IP: 54.240.48.48
+Sender domain matches the "from" address
+The message is from the United States 
+There are no signs of redirection and there are no SPF/DKIM/DMARC errors. There are also no misspellings or spoofed email addresses or anything similar.
+
+I notice phishing messages quickly and I have worked in a incident response team but at a lower level so I mostly checked reported phishing and similar suspicious emails which also helped me take care of my own security.
+
+My first advice I would give someone new to email is to take time to check everything and think things through and if the email it self applies urgency then be even more careful.
+
+
+
+LAB05
+
+With John the Ripper on kali I managed to find passwords "letmein", "Password1" and "geslo". The program did not find a passphrase which I came up with for this tutorial and one regular password "Poletje2002" which I am guessing is long enough even though it is not complex.
+
+Security score increases a lot with length. For example "Password1" would be cracked in around 3 days and "Poletje2002" would be cracked in 41 years. And if we add "!" the score goes up to 34 thousand years.
+
+Passphrases are scored way higher as it is not a simple Word but "random" characters but it still enables us to remember it.
+
+I would recommend and I personally use a password manager with randomly generated 24 character password. And because of the password manager it is still suited for everyday use (logging with the help of the manager).
+
+
+
+LAB06
+
+G1  fLBCmpFy                            22 min                  not secure
+G2  Nbd9Tv8Uj0wn                        2000 years              secure but it need a special character
+G3  jJ7faBJl*Lb7xdtL                    1 trillion years        secure
+G4  swzfRBcf7%w5&@IecSTsxRgK            1 octillion years       secure
+G5  griminess-womanlike-boneless-gilled 200 undecillion years   secure (also easy to remember compared to other ones)
+
+Reflecation and analysis questions are the same as in LAB05.
+
+
+
+LAB07
+
+Main difference between encrypted and unencrypted message is in what part of email is visible. With STARTTLS header, body and similar are hidden.
+
+Fingerprinting or the "digital signature" prevents man in the middle attacks by ensuring that the private key is correct where the public key allow authentication. And so we can be sure that an attackers is not substituting their own key.
+
+Both PGP and Signal are used for encrypted messaging, but we use PGP for sending emails or documents and signal is used for regular messages and calls with the option of sending files aswell.
+
+End to end encryption should be the default on any communications app. Aspecialy now when encryption for those apps is becoming easier and it prevents attacks and data leaks with relatively low effort.
+
+
+
+LAB08
+
+I am safest in web browsing, personal computers, smart home, authentication and mobile devices. All together I have 85% of essential 34% optional and 15% advanced.
+I am most behind in networks and messaging.
+I was most surprised with messaging score. But I still feel safe as I only use end to end encrypted applications.
+I will try to be better at using better settings for my home networks.
+
+Awareness of digital exposure is very important as if nothing else it is great motivation to try and be more responsible on the internet. By that I mean it can be a shock to some when they see how much information is available about them which is the first step towards better personal security and privacy.
+
+I will and have already recommended this tool or similar ones.
+The checklists could be altered for school or business with more tailored examples of what to do and what not to do.
